@@ -1,0 +1,40 @@
+﻿生成启动时间为 2016/6/29 13:45:54。
+     1>项目“F:\Projects\textobject\textobject.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(298,5): warning MSB8004: Intermediate 目录未以斜杠结尾。此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Intermediate 目录。
+     1>InitializeBuildStatus:
+         正在创建“Win32\Release\textobject.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Moc'ing svgtextobject.h...
+         Moc'ing window.h...
+         Rcc'ing resources.qrc...
+       ClCompile:
+         E:\vs2010\VC\bin\CL.exe /c /IC:\Qt\4.8.4\include\QtCore /IC:\Qt\4.8.4\include\QtGui /IC:\Qt\4.8.4\include\QtSvg /IC:\Qt\4.8.4\include /IC:\Qt\4.8.4\include\ActiveQt /Irelease /IC:\Qt\4.8.4\mkspecs\default /Zi /nologo /W3 /WX- /O2 /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_DLL /D QT_NO_DEBUG /D QT_SVG_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D QT_HAVE_MMX /D QT_HAVE_3DNOW /D QT_HAVE_SSE /D QT_HAVE_MMXEXT /D QT_HAVE_SSE2 /D QT_THREAD_SUPPORT /D NDEBUG /Gm- /EHsc /MD /GS- /fp:precise /Zc:wchar_t- /Zc:forScope /GR /Fo"Win32\Release\\" /Fd"Win32\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_resources.cpp -Zm200 -w34100 -w34189 
+         qrc_resources.cpp
+         E:\vs2010\VC\bin\CL.exe /c /IC:\Qt\4.8.4\include\QtCore /IC:\Qt\4.8.4\include\QtGui /IC:\Qt\4.8.4\include\QtSvg /IC:\Qt\4.8.4\include /IC:\Qt\4.8.4\include\ActiveQt /Irelease /IC:\Qt\4.8.4\mkspecs\default /Zi /nologo /W3 /WX- /O2 /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_DLL /D QT_NO_DEBUG /D QT_SVG_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D QT_HAVE_MMX /D QT_HAVE_3DNOW /D QT_HAVE_SSE /D QT_HAVE_MMXEXT /D QT_HAVE_SSE2 /D QT_THREAD_SUPPORT /D NDEBUG /Gm- /EHsc /MD /GS- /fp:precise /Zc:wchar_t- /Zc:forScope /GR /Fo"Win32\Release\\" /Fd"Win32\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp Release\moc_svgtextobject.cpp Release\moc_window.cpp svgtextobject.cpp window.cpp -Zm200 -w34100 -w34189 
+         main.cpp
+         moc_svgtextobject.cpp
+         moc_window.cpp
+         svgtextobject.cpp
+         window.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _WINDOWS /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_DLL /D QT_NO_DEBUG /D QT_SVG_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D QT_HAVE_MMX /D QT_HAVE_3DNOW /D QT_HAVE_SSE /D QT_HAVE_MMXEXT /D QT_HAVE_SSE2 /D QT_THREAD_SUPPORT /l"0x0409" /nologo /fo"Win32\Release\textobject1.res" textobject1.rc 
+       Link:
+         E:\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"release\\textobject.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Qt\4.8.4\lib /LIBPATH:C:\Qt\4.8.4\lib C:\Qt\4.8.4\lib\qtmain.lib C:\Qt\4.8.4\lib\QtSvg4.lib C:\Qt\4.8.4\lib\QtGui4.lib C:\Qt\4.8.4\lib\QtCore4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32\Release\textobject.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"F:\Projects\textobject\release\textobject.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 Win32\Release\textobject1.res
+         Win32\Release\qrc_resources.obj
+         Win32\Release\main.obj
+         Win32\Release\moc_svgtextobject.obj
+         Win32\Release\moc_window.obj
+         Win32\Release\svgtextobject.obj
+         Win32\Release\window.obj "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" 
+         textobject.vcxproj -> F:\Projects\textobject\release\textobject.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"release\\textobject.exe;#1" /manifest Win32\Release\textobject.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Win32\Release\textobject.unsuccessfulbuild”。
+         正在对“Win32\Release\textobject.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\Projects\textobject\textobject.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:14.12

@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>files/heart.svg</file>
+        <file>files/ss.jpg</file>
+        <file>files/dandan.jpg</file>
+        <file>files/dandanherat.jpg</file>
+        <file>files/dan.jpg</file>
+        <file>files/heartDan.ico</file>
+        <file>files/heartDanDan.ico</file>
+        <file>files/danheart.jpg</file>
+    </qresource>
+</RCC>
